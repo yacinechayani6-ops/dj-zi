@@ -12,14 +12,14 @@ import telebot
 from telebot import types
 from cachetools import TTLCache
 
-TOKEN = os.getenv('BOT_TOKEN', '8739590673:AAEcah1MKtw8IeADZ_VMpE_2KuN_PyH7LG0')
-ACTIVATION_GROUP = -1004434083164
-BOT_USERNAME = 'sdhiduu_bot'
+TOKEN = os.getenv('BOT_TOKEN', '9129471263:AAE0aAXEnww8QPNs6012hDopqRKAlqCxaYY')
+ACTIVATION_GROUP = -5506570535
+BOT_USERNAME = '@OctiNetbot'
 REGISTERED_NUMBERS_FILE = 'registered_numbers.json'
 
 # إعدادات الاشتراك الإجباري والمطور
-REQUIRED_CHANNEL = '@ex_hi'
-DEVELOPER_URL = 'https://t.me/nova56809'
+REQUIRED_CHANNEL = '@OctiNet'
+DEVELOPER_URL = 'https://t.me/sud0_dev'
 
 if not TOKEN or TOKEN == 'PUT_YOUR_NEW_BOT_TOKEN_HERE':
     raise RuntimeError('❌ ضـع تـوكـن الـبـوت الـجـديـد فـي الـمـتـغـيـر BOT_TOKEN أو داخـل TOKEN.')
